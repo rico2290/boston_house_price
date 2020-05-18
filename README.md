@@ -34,7 +34,7 @@ Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembra
 
 > erro quadrático: **6.205816494411828**
 
-Obs: O nosso Modelo erra ```+6 ou -6 ```
+Obs: esse modelo erra ```+6 ou -6 ```
 
 #### Regressão Linear
 ![rl](https://user-images.githubusercontent.com/19332627/82250696-50196200-9922-11ea-8137-68749949d93e.PNG)
