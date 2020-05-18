@@ -10,6 +10,8 @@
 4. *Criação de Modelo*
 5. *Interpretação de Resultado de Modelo*
 
+>> Vou pular algumas etapas e ir logo para a etapa ```4  e 5 ``` que tem foco na conclusão de ecolha de algoritmo vencedor
+
 #### Definição da Baseline
 > É importante definir uma base line para termos marco no nosso projeto 
 ###### Nossa Baseline foi definida da seguinte forma:
@@ -26,6 +28,10 @@
 
 ###### Apos o treinamento, obtemos :
 ![predict_baseline](https://user-images.githubusercontent.com/19332627/82248838-2f034200-991f-11ea-9ac1-69cf2b4a77a9.PNG)
-> com um erro quadra´tico de: 6.205816494411828 
+> com um erro quadrático de: **6.205816494411828**
+>>> Obs: O nosso Modelo erra ```+6 ou -6 ```
+
+#### Regressão Linear
+
 
 
