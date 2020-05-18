@@ -17,7 +17,7 @@ Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembra
 #### Definição da Baseline
 > É importante definir uma base line para termos marco no nosso projeto 
 ###### Nossa Baseline foi definida da seguinte forma:
-```def retorna_baseline(num_quartos):
+``` def retorna_baseline(num_quartos):
   if num_quartos <= 4:
     return dic_baseline.get('Pequeno')
   elif num_quartos < 7:
