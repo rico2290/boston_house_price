@@ -12,7 +12,7 @@
 5. *Interpretação de Resultado de Modelo*
 
 >> Vou pular algumas etapas e ir logo para a etapa ```4 ``` que tem foco na conclusão de ecolha de algoritmo vencedor.
-Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembrando que nesse caso, nosso problema é prever valor baseado nos valores dos dados que já temos. Esse é um problema para *algoritmo de aprendizado supervisionado*
+Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembrando que nesse caso, nosso problema é prever valor de um imóvel baseado nos valores dos dados que já temos. Esse é um problema para *algoritmo de aprendizado supervisionado*
 #### Definição da Baseline
 > É importante definir uma base line para termos marco no nosso projeto 
 ###### Nossa Baseline foi definida da seguinte forma:
@@ -35,19 +35,22 @@ Obs: O nosso Modelo erra ```+6 ou -6 ```
 
 #### Regressão Linear
 ![rl](https://user-images.githubusercontent.com/19332627/82250696-50196200-9922-11ea-8137-68749949d93e.PNG)
-> Performance do modelo avaliado com os dados de teste
-> com erro quadrático de: **4.460277295153906**
+> Performance do modelo avaliado com os dados de teste.
+
+> erro quadrático de: **4.460277295153906**
 
 #### Decision Tree 
 ![decision tree](https://user-images.githubusercontent.com/19332627/82252671-cff4fb80-9925-11ea-9b61-dcc083f38b7f.PNG)
 > Performance do modelo avaliado com os dados de teste
-> com erro quadrático de: **4.643988873055277**
+
+> erro quadrático de: **4.643988873055277**
 
 Por último, mas nao menos importanbte, testamos o nosso 
 #### Random Forest
 ![random_forest](https://user-images.githubusercontent.com/19332627/82253900-409d1780-9928-11ea-89ce-4133f7ab5945.PNG)
-> Performance do modelo avaliado com os dados de teste
-> com erro quadrático de: **3.3218209875713334**
+> Performance do modelo avaliado com os dados de teste.
+
+> erro quadrático de: **3.3218209875713334**
 
 Note-se claramente que o Random Forest se saiu melhor que os demais algoritmos testados para o nosso problema
 Desta forma, é com ele que terminamos a etapa 5 e decidimos.
