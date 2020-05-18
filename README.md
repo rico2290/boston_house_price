@@ -13,7 +13,7 @@
 #### Definição da Baseline
 > É importante definir uma base line para termos marco no nosso projeto 
 ###### Nossa Baseline foi definida da seguinte forma:
-``` def retorna_baseline(num_quartos):
+```def retorna_baseline(num_quartos):
   if num_quartos <= 4:
     return dic_baseline.get('Pequeno')
   elif num_quartos < 7:
@@ -21,4 +21,8 @@
   else:
     return dic_baseline.get('Grande') 
 ```
->>  calssificamos assim os imoveis em três categorias definido no código 
+
+> desta forma, clasificamos assim os imoveis em três categorias definido no código 
+
+###### Apos o treinamento, obtemos :
+> ![predict_baseline](https://user-images.githubusercontent.com/19332627/82248838-2f034200-991f-11ea-9ac1-69cf2b4a77a9.PNG)
