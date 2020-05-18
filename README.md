@@ -1,0 +1,24 @@
+## Data App - Prevendo Valores de Imóveis
+> ##### Um App utilizado para exibir a solução de Machine Learning para o problema de predição de valores de imóveis de Boston
+####  Semana de Data Science do [Minerando Dados](https://minerandodados.com.br/)
+### Processo de Data Science 
+### Etapas:
+
+1. *Coleta de Dados*
+2. *Limpeza e Formatação*
+3. *Análise e Exploração* 
+4. *Criação de Modelo*
+5. *Interpretação de Resultado de Modelo*
+
+#### Definição da Baseline
+> É importante definir uma base line para termos marco no nosso projeto 
+###### Nossa Baseline foi definida da seguinte forma:
+``` def retorna_baseline(num_quartos):
+  if num_quartos <= 4:
+    return dic_baseline.get('Pequeno')
+  elif num_quartos < 7:
+    return dic_baseline.get('Medio')
+  else:
+    return dic_baseline.get('Grande') 
+```
+>>  calssificamos assim os imoveis em três categorias definido no código 
