@@ -59,4 +59,4 @@ Note-se claramente que o Random Forest se saiu melhor que os demais algoritmos t
 Desta forma, é com ele que terminamos a etapa 5 e decidimos.
 
 
-> Psiu!!! não quero dizer que o Random Forest é melhor que todos ou se sairá melhor que os restantes algoritmos. Mas, para esse problema ele se saí melhor que os os demais testados. Aliás,  poderíamos usar o ``` GridSearchCV ``` com seus famosos hiperparâmetros o que provavelmente seria um braço de ferro bem interessante.
+> Psiu!!! essa escolha não quer dizer que o Random Forest é melhor que todos ou se sairá melhor que os restantes algoritmos. Mas, para esse problema ele se saí melhor que os os demais testados. Aliás,  poderíamos usar o ``` GridSearchCV ``` com seus famosos hiperparâmetros o que provavelmente seria um braço de ferro bem interessante.
