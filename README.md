@@ -33,6 +33,7 @@ Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembra
 > Performance do modelo avaliado com os dados de teste
 
 > erro quadrático: **6.205816494411828**
+
 Obs: O nosso Modelo erra ```+6 ou -6 ```
 
 #### Regressão Linear
