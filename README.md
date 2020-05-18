@@ -57,7 +57,7 @@ Por último, mas nao menos importanbte, testamos o nosso
 > erro quadrático de: **3.3218209875713334**
 
 Note-se claramente que o Random Forest se saiu melhor que os demais algoritmos testados para o nosso problema
-Desta forma, é com ele que terminamos a etapa ``` 4 ``` e decidimos a etapa `` 5 ```.
+Desta forma, é com ele que terminamos a etapa ``` 4 ``` e decidimos a etapa ``` 5 ```.
 
 
 > Psiu!!! essa escolha não quer dizer que o Random Forest é melhor que todos ou se sairá melhor que os restantes algoritmos. Mas, para esse problema ele se saí melhor que os os demais testados. Aliás,  poderíamos usar o ``` GridSearchCV ``` com seus famosos hiperparâmetros o que provavelmente seria um braço de ferro bem interessante.
