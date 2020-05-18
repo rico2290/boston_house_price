@@ -1,6 +1,6 @@
 ## Data App - Prevendo Valores de Imóveis
 > ##### Um App utilizado para exibir a solução de Machine Learning para o problema de predição de valores de imóveis de Boston
-> ##### Usamos ``` 80% ``` de base para treino e ```20%``` para teste
+> ##### Usamos ``` 80% ``` de base de dados para treino e ```20%``` para teste
 ####  Semana de Data Science do [Minerando Dados](https://minerandodados.com.br/)
 ### Processo de Data Science 
 ### Etapas:
