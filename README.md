@@ -6,11 +6,11 @@
 ### Processo de Data Science 
 ### Etapas:
 
-1. *Coleta de Dados*
-2. *Limpeza e Formatação*
-3. *Análise e Exploração* 
-4. *Criação de Modelo*
-5. *Interpretação de Resultado de Modelo*
+1. Coleta de Dados
+2. Limpeza e Formatação
+3. Análise e Exploração 
+4. Criação de Modelo
+5. Interpretação de Resultado de Modelo
 
 Vou pular algumas etapas e ir logo para a etapa ```4 ``` que tem foco a escolha de algoritmo vencedor.
 Nessa etapa, aplicamos os algorimtos que se adequam com o nosso problema. Lembrando que nesse caso, nosso problema é prever valor de um imóvel baseado nos valores dos dados que já temos. Esse é um problema para *algoritmo de aprendizado supervisionado*
