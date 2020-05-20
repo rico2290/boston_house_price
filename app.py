@@ -3,6 +3,9 @@ import streamlit as st
 import plotly.express as px
 from sklearn.ensemble import RandomForestRegressor
 import webbrowser
+from PIL import Image
+
+url ='https://github.com/rico2290/prever_valor_imovel'
 
 # função para carregar o dataset
 @st.cache # acelerar o trabalho deixando os dados na cache
@@ -29,19 +32,29 @@ data = get_data()
 # treinando o modelo
 model = train_model()
 
-url ='https://github.com/rico2290'
+# img  = Image.open('img/github-logo.png')
+# if st.image(img, width= 20):
+#     webbrowser.open_new_tab(url)
+
 
 #Owner
-st.subheader('Autor: RICO LIMA\n')
-if st.button('Acesse o projeto no github'):
-    webbrowser.open_new_tab(url)
+
 
 # título
 st.title("Data App - Prevendo Valores de Imóveis")
 
-
 # subtítulo
 st.markdown("Este é um Data App utilizado para exibir a solução de Machine Learning para o problema de predição de valores de imóveis de Boston.")
+
+st.subheader('\n\nAutor: Rico Lima\n')
+if st.button('Acesse o projeto no github'):
+    webbrowser.open_new_tab(url)
+
+audio_file = open('audio/random_forest.mp3', 'rb')
+if audio_file:
+    audio_bytes = audio_file.read()
+    st.markdown('Ouça um pouco do que é Random Forest, que é o algoritmo que usamos pra predizer os valores dos imóveis por se sair melhor na nossa avaliação')
+    st.audio(audio_bytes, format='audio/mp3')
 
 # verificando o dataset
 st.subheader("Selecionando apenas um pequeno conjunto de atributos")
