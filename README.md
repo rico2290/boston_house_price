@@ -1,7 +1,7 @@
 ## Data App - Prevendo Valores de Imóveis
 > ##### Um App utilizado para exibir a solução de Machine Learning para o problema de predição de valores de imóveis da cidade de Boston
 ##### Separamos ``` 80% ``` de base de dados para treino e ```20%``` para teste
-#### Obs: a separação de dados de treino e de teste vai variar de cada desenvolvedor. veja aqui [Minerando Dados](https://minerandodados.com.br/split-dataset-como-separar/) um exemplo 
+#### Obs: a separação de dados de treino e de teste vai variar de cada desenvolvedor. veja 👉 [Minerando Dados](https://minerandodados.com.br/split-dataset-como-separar/) um exemplo 
 ![data-app-screen](https://user-images.githubusercontent.com/19332627/82452717-05185f80-9a86-11ea-9971-90761a4fb528.PNG)
 ####  Semana de Data Science do [Minerando Dados](https://minerandodados.com.br/)
 ### Processo de Data Science 
